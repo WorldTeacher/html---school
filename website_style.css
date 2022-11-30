@@ -1,0 +1,47 @@
+
+.main {
+    font-style: italic;
+    font-weight: bold;
+    color:aqua;
+    
+}
+
+.table {
+    background-color:rgb(19, 123, 33);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1em;
+    display: flex;
+}
+
+
+.menu {
+    font-size: medium;
+    color: orange;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+.prevnext{
+    /* 2x1 grid */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "prev next";
+    grid-gap: 10px;
+    margin: 10px;
+    
+    font-size: medium;
+
+    color: orange;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    /* insert js cerated code here */
+
+
+}
+.menutable {
+    font-style: italic;
+    color: lightsalmon;
+    
+
+}
